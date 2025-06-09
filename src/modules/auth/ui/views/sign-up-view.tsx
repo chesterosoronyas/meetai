@@ -88,7 +88,7 @@ export const SignUpView = () => {
                         <FormLabel>Name</FormLabel>
                         <FormControl>
                           <Input
-                            type="name"
+                            type="text"
                             placeholder="John Doe"
                             {...field}
                           />
@@ -162,7 +162,7 @@ export const SignUpView = () => {
                   </Alert>
                 )}
                 <Button type="submit" className="w-full" disabled={pending}>
-                  Sign in
+                  Sign up
                 </Button>
                 <div className="after:border-border relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:border-t">
                   <span className="bg-card text-muted-foreground relative z-10 px-2">
